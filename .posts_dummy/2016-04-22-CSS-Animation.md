@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_dummy
 title: CSS Animation
 category: CSS
 tags: [css]

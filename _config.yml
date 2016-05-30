@@ -6,20 +6,21 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Yummy Theme # ex. I m Chuan
-name: Your Name # ex. DONGChuan
-email: my_email_address@lalala.com
-location: My location # ex. Nice, France
-company: MyCompany
-company_url: my_company_website
-github_url: my_github_url # ex. https://github.com/DONGChuan
-description: description_of_your_web_site
+title: Vish! # ex. I m Chuan
+name: Visweshwaran S # ex. DONGChuan
+email: Visweshwaran.s@gmail.com
+location: Bengaluru,India # ex. Nice, France
+company: Sapient Nitro
+company_url: www.sapientnitro.com
+github_url: https://github.com/vichu1988 # ex. https://github.com/DONGChuan
+description: Well what can i say that has not already been said by someone. When i find it, you know where to look for...
 favicon: favicon.png # Image must be in assets/images
 
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
 url: http://localhost:4000
+#url: http://vichu1988.github.io
 
 ## Gem
 gems:
@@ -36,14 +37,14 @@ lsi:         false
 excerpt_separator: "\n\n"
 
 source:      .
-destination: ./_site
+destination: ../_site
 
 quiet:    false
 defaults: []
 
-kramdown:
+syntax_highlighter_opts:
   input: GFM
-  enable_coderay: true
+  syntax_highlighter: coderay
 
 # Disque
 disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
@@ -59,16 +60,8 @@ navs:
     label: Home
 
   -
-    href: /open-source
-    label: Open-Source
-
-  -
     href: /blog
     label: Blog
-
-  -
-    href: /bookmark
-    label: Bookmark
 
   -
     href: /about
@@ -86,6 +79,6 @@ analytics :
 
 # For about.html. Fell free to create your own!
 skill_software_keywords: [Java, C, C++, Qt, Python, MySQL, Oracle, SQLite, PL/SQL, Design Patterns]
-skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
-skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Boostrap]
+#skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
+skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, ReactJS,Redux]
 skill_mobile_app_keywords: [Android, Sketch UI Desgin]
